@@ -51,7 +51,7 @@ D -->|Quiz & Q&A| E
    ```bash
    python -m venv venv
    # On Windows
-   venv\Scripts\activate
+   myenv\Scripts\activate
    # On macOS/Linux
    source venv/bin/activate
    ```

@@ -56,10 +56,10 @@ st.markdown("""
 def check_api_key():
     """Check if the Groq API key is configured."""
     api_key = os.getenv("GROQ_API_KEY")
-    if api_key:
-        print("API Key Loaded Successfully")
-    else:
-        print("API Key Missing")
+    # if api_key:
+    #     print("API Key Loaded Successfully")
+    # else:
+    #     print("API Key Missing")
     return api_key and api_key != "your_key_here"
 
 def main():
